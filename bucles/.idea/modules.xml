@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ejemplosClase/cuadrado/POO/POO.iml" filepath="$PROJECT_DIR$/ejemplosClase/cuadrado/POO/POO.iml" />
       <module fileurl="file://$PROJECT_DIR$/bucles.iml" filepath="$PROJECT_DIR$/bucles.iml" />
       <module fileurl="file://$PROJECT_DIR$/ejemplosClase/cuadrado/cuadrado.iml" filepath="$PROJECT_DIR$/ejemplosClase/cuadrado/cuadrado.iml" />
       <module fileurl="file://$PROJECT_DIR$/ejemplosClase/ejemplosClase.iml" filepath="$PROJECT_DIR$/ejemplosClase/ejemplosClase.iml" />
