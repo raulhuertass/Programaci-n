@@ -92,14 +92,14 @@ public class Main {
     private static boolean numeroPrimo() {
 
         int numeroPrimo;
-        boolean nPrimo;
+        boolean nPrimo = false;
         System.out.println("Ingrese un número para comprobar si es primo");
         Scanner sc = new Scanner(System.in);
         numeroPrimo= sc.nextInt();
 
-        for (int contador=0; (numeroPrimo % contador/2)==0; contador++){
+        for (int contador=2; (numeroPrimo % contador)==0; contador++){
 
-            if (numeroPrimo % contador==0){
+            if ((numeroPrimo==0)){
                 System.out.println("El número es primo");
                 nPrimo= true;
             } else {
@@ -109,7 +109,8 @@ public class Main {
              return nPrimo;
         }
 
-    }
+        return nPrimo;
+    } 
 
 
     }
